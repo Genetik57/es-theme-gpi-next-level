@@ -1,0 +1,139 @@
+﻿<!--
+theme name:		NEXT LEVEL
+version:		2.0
+Description:	Based on Simple 1.4 theme by nils bonenberger (nilsbyte@nilsbyte.de)
+author:			Gaëtan at KOT Production
+
+-->
+
+<theme>
+    <formatVersion>4</formatVersion>
+
+<include>./config.xml</include>
+
+    <view name="menu">
+		<menuText name="menufooter">
+			<fontPath>./art/impact.ttf</fontPath>
+			<fontSize>.035</fontSize>
+			<color>777777FF</color>
+		</menuText>
+		<menuText name="menutext">
+			<fontPath>./art/impact.ttf</fontPath>
+			<fontSize>.042</fontSize>
+			<color>DFDCDC</color>
+			<separatorColor>555555FF</separatorColor>
+			<selectorColor>006ca3</selectorColor>
+			<selectedColor>FFFFFF</selectedColor>
+		</menuText>
+		<menuTextSmall name="menutextsmall">
+			<fontPath>./art/impact.ttf</fontPath>
+			<fontSize>.04</fontSize>
+			<color>deec00</color>
+		</menuTextSmall>
+		<menuText name="menutitle">
+			<fontPath>./art/impact.ttf</fontPath>
+			<fontSize>.045</fontSize>
+			<color>DFECFA</color>
+		</menuText>
+		<menuBackground name="menubg">
+		    <color>2D2C2C</color>
+			<path>./../arts/frame.png</path>
+			<fadePath>./art/fade.png</fadePath>
+		</menuBackground>
+		<menuIcons name="menuicons">
+			<iconKodi>./_art/menu_icons/Kodi.png</iconKodi>
+			<iconSystem>./_art/menu_icons/System.png</iconSystem>
+			<iconUpdates>./_art/menu_icons/Updates.png</iconUpdates>
+			<iconGames>./_art/menu_icons/Games.png</iconGames>
+			<iconControllers>./_art/menu_icons/Controllers.png</iconControllers>
+			<iconUI>./_art/menu_icons/UI.png</iconUI>
+			<iconSound>./_art/menu_icons/Sound.png</iconSound>
+			<iconNetwork>./_art/menu_icons/Network.png</iconNetwork>
+			<iconScraper>./_art/menu_icons/Scraper.png</iconScraper>
+			<iconAdvanced>./_art/menu_icons/Advanced.png</iconAdvanced>
+			<iconQuit>./_art/menu_icons/Quit.png</iconQuit>
+			<iconRestart>./_art/menu_icons/Restart.png</iconRestart>
+			<iconShutdown>./_art/menu_icons/Shutdown.png</iconShutdown>
+			<iconFastShutdown>./_art/menu_icons/Fastshutdown.png</iconFastShutdown>			
+		</menuIcons>
+	</view>
+    <view name="basic, detailed, video">
+	<helpsystem name="help">
+      <textColor>5e5e5e</textColor>
+      <iconColor>5e5e5e</iconColor>
+	  <fontPath>./art/impact.ttf</fontPath>
+	  <fontSize>0.012</fontSize>
+	  <pos>0.325 0.968</pos>
+    </helpsystem>
+		
+		<text name="md_lbl_favorite">
+			<color>DFDCDC</color>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/impact.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+			<size>0.12 0.04</size>
+		</text>
+		
+		<text name="md_favorite">
+			<color>DFDCDC</color>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/impact.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+			<size>0.14 0.04</size>
+		</text>
+
+		<image name="header" extra="true">
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 0.16</size>
+			<path>./art/white80.png</path>
+		</image>
+
+		<image name="footer" extra="true">
+			<pos>0 1</pos>
+			<origin>0 1</origin>
+			<size>1 0.065</size>
+			<path>./art/footer.jpg</path>
+		</image>	
+
+
+                <image name="backgroundfilter" extra="true">
+                        <pos>0 0</pos>
+                        <origin>0 0</origin>
+                        <size>1 1</size>
+                        <path>./art/white40.png</path>
+                </image>
+
+		<textlist name="gamelist">
+			<selectorColor>006ca3</selectorColor>
+			<selectedColor>FFFFFF</selectedColor>
+			<primaryColor>DFDCDC</primaryColor>
+			<secondaryColor>DFDCDC</secondaryColor>
+			<fontPath>./art/impact.ttf</fontPath>
+			<fontSize>0.05</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<scrollSound>./sounds/scroll.ogg</scrollSound>
+		</textlist>
+		
+	</view>
+
+
+	<view name="basic, detailed, video">
+	<textlist name="gamelist">
+      <pos>0.4 0.185</pos>
+      <size>0.252 0.745</size>
+      <alignment>left</alignment>
+      <horizontalMargin>0.01</horizontalMargin>
+	  <scrollSound>./sounds/scroll.wav</scrollSound>
+    </textlist>
+	
+ 		<!--<image name="bggreye" extra="true">
+                        <path>./white.png</path>
+                        <pos>0 0</pos>
+                        <size>1 1</size>
+                        <maxSize>1 1</maxSize>
+                        <origin>0 0</origin>
+                </image>-->		
+	</view>
+	
+</theme>

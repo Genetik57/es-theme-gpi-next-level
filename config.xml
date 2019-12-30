@@ -1,0 +1,9 @@
+﻿<theme>
+    <formatVersion>4</formatVersion>
+		
+	<include subset="systemview" name="Wheel Left">./systemview/wheelgauche.xml</include>
+	<include subset="systemview" name="Wheel Right">./systemview/wheeldroite.xml</include>
+	<include subset="systemview" name="Horizontal">./systemview/normal.xml</include>
+	<include subset="systemview" name="Vertical Right">./systemview/verticaldroit.xml</include>
+	<include subset="systemview" name="Vertical Left">./systemview/verticalgauche.xml</include>
+</theme>
